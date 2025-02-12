@@ -1,6 +1,5 @@
-.App {
-  text-align: center;
-}
+
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +34,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.create-em-outer{
+  max-width: 800px;
+  margin:0 auto;
 }
