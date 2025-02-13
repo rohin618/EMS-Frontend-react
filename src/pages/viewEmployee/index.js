@@ -23,7 +23,6 @@ const ListEmployee = () => {
     }
 
     const deleteEmployee = async (id) => {
-        console.log(id)
         try {
             const response = await apiClient.delete(apiRoutes.deleteEmp(id));
             if (response) {
